@@ -1,7 +1,18 @@
 public class exo4 {}
      void main () {
-         IO.println("Digite um número");
+          Scanner sc = new Scanner(System.in);
 
+         IO.println("Digite um número");
+          int numerousuario = sc.nextInt();
+          int resultado = 0;
+          int contador = 1;
+
+          while (contador <= numerousuario) {
+              IO.println(contador);
+              contador++;
+
+
+          }
      }
 
 
