@@ -5,10 +5,11 @@ public class exo4 {}
          IO.println("Digite um número");
           int numerousuario = sc.nextInt();
           int resultado = 0;
-          int contador = 1;
+          int contador = 4;
 
           while (contador <= numerousuario) {
-              IO.println(contador);
+              IO.println(resultado);
+              resultado = resultado + contador;
               contador++;
 
 
